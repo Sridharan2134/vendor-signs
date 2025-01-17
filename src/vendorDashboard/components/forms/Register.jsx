@@ -36,7 +36,7 @@ const Register = ({ showLoginHandler }) => {
         showLoginHandler();
       } else {
         setError(data.error);
-        alert("Registration Failed, Contact Admin")
+        alert("Registration Failed, Contact Admin");
       }
     } catch (error) {
       console.error("Registration failed", error);
