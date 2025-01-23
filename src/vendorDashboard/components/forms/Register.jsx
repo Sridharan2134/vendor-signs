@@ -68,7 +68,7 @@ const Register = ({ showLoginHandler }) => {
 <label>Username</label>
 <input type="text" name='username' value={username} onChange={(e) => setUsername(e.target.value)} placeholder='enter your name' /><br />
 <label>Email</label>
-<input type="text" name='email' value={email} onChange={(e) => setEmail(e.target.value)} placeholder='enter your email' /><br />
+<input type="email" name='email' value={email} onChange={(e) => setEmail(e.target.value)} placeholder='enter your email' /><br />
 <label>Password</label>
 <input type={showPassword ? "text" : "password"} value={password} onChange={(e) => setPassword(e.target.value)} name='password' placeholder='enter your password' /><br />
 <span className='showPassword'
